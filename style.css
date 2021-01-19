@@ -1,0 +1,97 @@
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../19-01/assets/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.box-init {
+    display: flex;
+    margin-left: 6rem;
+}
+
+.box-logo {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 4rem;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.list-menu {
+    display: flex;
+    list-style: none;
+    margin-top: 37px;
+    margin-left: 6rem;
+}
+
+.item-list {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 3rem;
+}
+
+.item-list:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.person {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.box-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: -21rem;
+}
+
+.logo-the-witcher {
+    width: 21%;
+}
+
+.button {
+    background-image: linear-gradient(#A40D17, #C00F1BFA, #FF1323FA);
+    width: 13rem;
+    height: 3rem;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.paragraph-finish {
+    width: 37%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
